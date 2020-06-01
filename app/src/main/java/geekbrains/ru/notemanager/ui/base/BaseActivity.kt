@@ -38,4 +38,5 @@ abstract class BaseActivity<T, S : BaseViewState<T>> : AppCompatActivity() {
         snackbar.setAction(R.string.ok_bth_title, View.OnClickListener { snackbar.dismiss() })
         snackbar.show()
     }
+
 }
